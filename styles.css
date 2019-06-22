@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("img/water.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    color: #FFFFFF;
+}
+
+.intro {
+    font-size: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about, .form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20% 0;
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+.form form {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.form form .input {
+    width: 100%;
+}
+
+.form form .submit {
+    background-color: aqua;
+    border-radius: 3px;
+    padding: 5px 30px;
+    margin: 5px 3px;
+}
+
+.form form .submit:hover {
+    cursor: pointer;
+}
+
+.form form * {
+    margin: 3px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    font-size: 1rem;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.wrap {
+    text-decoration: underline;
+}
